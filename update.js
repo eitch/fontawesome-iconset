@@ -75,7 +75,7 @@ var template = ({
 	scaleY,
 	shiftX,
 	shiftY
-}) => `      <g id="${name}" transform="scale(${scaleX} ${scaleY}) translate(${shiftX} ${shiftY})"><path d="${path}"/></g>\n`;
+}) => `      <g id="${name}" transform="scale(${scaleX} ${scaleY}) translate(${shiftX} ${shiftY})"><path d="${path}"></path></g>\n`;
 
 // Icons object
 var icons = Object.create(null);
